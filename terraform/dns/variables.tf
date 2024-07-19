@@ -8,7 +8,7 @@ variable "region" {
   type        = string
 }
 
-variable "top_level_domain_name" {
-  description = "The top level domain name to create"
+variable "base_domain" {
+  description = "The base domain for the cluster"
   type        = string
 }

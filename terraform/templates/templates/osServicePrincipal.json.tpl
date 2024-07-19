@@ -1,0 +1,1 @@
+{"subscriptionId":"${var_arm_subscription_id}","clientId":"${var_arm_client_id}","clientSecret":"${var_arm_client_secret}","tenantId":"${var_arm_tenant_id}"}
