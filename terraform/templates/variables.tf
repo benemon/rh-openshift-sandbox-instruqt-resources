@@ -32,10 +32,3 @@ variable "pull_secret" {
   description = "The pull secret for the cluster"
   type        = string
 }
-
-variable "ssh_key" {
-  description = "The SSH key for the cluster hosts"
-  type        = string
-}
-
-

@@ -10,6 +10,6 @@ resource "template_dir" "cluster_config_templates" {
     var_cluster_name        = var.cluster_name
     var_base_domain         = var.base_domain
     var_pull_secret         = base64decode(var.pull_secret)
-    var_ssh_key             = var.ssh_key
+    var_ssh_key             = file("~/.ssh/id_rsa.pub")
   }
 }
