@@ -13,8 +13,3 @@ resource "template_dir" "cluster_config_templates" {
     var_ssh_key             = var.ssh_key
   }
 }
-
-
-
-
-
