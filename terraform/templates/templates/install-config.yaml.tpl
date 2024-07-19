@@ -33,6 +33,6 @@ platform:
     outboundType: Loadbalancer
     region: ${var_region}
 publish: External
-pullSecret: ${var_pull_secret}
+pullSecret: '${var_pull_secret}'
 sshKey: |
   ${var_ssh_key}
