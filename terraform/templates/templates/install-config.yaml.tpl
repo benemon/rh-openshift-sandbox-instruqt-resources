@@ -6,13 +6,17 @@ compute:
 - architecture: amd64
   hyperthreading: Enabled
   name: worker
-  platform: {}
+  platform:
+    azure:
+      type: Standard_D4as_v4
   replicas: 3
 controlPlane:
   architecture: amd64
   hyperthreading: Enabled
   name: master
-  platform: {}
+  platform:
+    azure:
+      type: Standard_D4as_v4
   replicas: 3
 metadata:
   creationTimestamp: null
