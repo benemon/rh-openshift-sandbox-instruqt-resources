@@ -1,4 +1,4 @@
-resource "template_dir" "cluster_config_templates" {
+resource "template_dir" "proxy_config_templates" {
   source_dir      = "${path.module}/templates"
   destination_dir = "${path.module}/output"
 
