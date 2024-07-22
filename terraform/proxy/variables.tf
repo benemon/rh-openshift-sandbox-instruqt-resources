@@ -1,5 +1,5 @@
 variable "instruqt_participant_id" {
-  description = "The Instruqt ID of the Sandbox session"
+  description = "The Instruqt ID of the participant session"
   type        = string
 }
 
