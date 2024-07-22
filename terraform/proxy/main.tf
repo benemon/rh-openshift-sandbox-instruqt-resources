@@ -3,8 +3,8 @@ resource "template_dir" "proxy_config_templates" {
   destination_dir = "${path.module}/output"
 
   vars = {
-    var_public_api_ip       = var.public_api_ip
-    var_public_router_ip    = var.public_router_ip
-    var_instruqt_sandbox_id = var.instruqt_sandbox_id
+    var_public_api_ip           = var.public_api_ip
+    var_public_router_ip        = var.public_router_ip
+    var_instruqt_participant_id = var.instruqt_participant_id
   }
 }
