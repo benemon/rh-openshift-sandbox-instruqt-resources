@@ -1,4 +1,4 @@
-variable "instruqt_sandbox_id" {
+variable "instruqt_participant_id" {
   description = "The Instruqt ID of the Sandbox session"
   type        = string
 }
