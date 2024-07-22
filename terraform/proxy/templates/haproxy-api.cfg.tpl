@@ -12,3 +12,4 @@ frontend api
 backend ocp_api_backend
    mode tcp
    server ${var_public_api_ip} ${var_public_api_ip}:6443 check
+   

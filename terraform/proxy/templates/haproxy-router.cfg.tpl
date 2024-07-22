@@ -22,3 +22,4 @@ backend ocp_https_router_backend
 backend ocp_http_router_backend
    mode http
    server ${var_public_router_ip} ${var_public_router_ip}:80 check
+   
